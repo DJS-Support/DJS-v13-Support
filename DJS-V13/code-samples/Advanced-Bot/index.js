@@ -1,7 +1,7 @@
 const { Client, Intents } = require('discord.js');
 
 const allIntents = Intents.all();
-const { token } = require('./config.json');
+const { token, prefix } = require('./config.json');
 
 const client = new Client({ intents: allIntents });
 
