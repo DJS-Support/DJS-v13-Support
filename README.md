@@ -12,7 +12,7 @@
   - [Node Help]()
 - [Helpful Information]()
 - [Contributors]()
-- [Making a Bot](DJS-V13/
+- [Making a Bot](DJS-V13/code-samples)
 
 
 
