@@ -8,7 +8,7 @@
 
 ## Table of contents
 
-- [DJS v13 Support]()
+- [DJS v13 Support](https://github.com/DJS-CodeDen/DJS-v13-Support/blob/main/DJS-V13/readme.md)
   - [Node Help]()
 - [Helpful Information]()
 - [Contributors]()
