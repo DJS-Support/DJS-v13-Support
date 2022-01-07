@@ -1,17 +1,16 @@
 # 
 ## **<p align="center">DJS-v13-Support</p>**
 <p align="center">
-<a><img src="https://discordjs.guide/meta-image.png" width="100" height="100"/></a> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png" width="100" height="100"/></a>
-</p>
-<p align="center">
-<a><img src="https://img.shields.io/npm/v/discord.js?label=Discord-JS&style=for-the-badge"/></a> <img src="https://img.shields.io/npm/v/npm?color=red&style=for-the-badge"/></a> <img src="https://img.shields.io/node/v/discord.js?style=for-the-badge"/></a>
-</p>
 
 ## Table of contents
 
-- [Help & Info](DJS-V13/readme.md)
-- [Helpful Links]()
+- [DJS V13 Code Examples](DJS-V13/code-samples) 
+- [Errors & Support]()
+- [Node Install](DJS-V13/Node_install.md)
+- [Helpful Information]()
 - [Contributors]()
+
+
 
 ## Helpful Links
 
@@ -22,8 +21,3 @@
 - [x] [Mozilla Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ***
-
-### Contributors
-
- -  [ ]  [Scope](https://github.com/ScopeOpen)
- -  [ ] [TheDeveloperGuy](https://github.com/MrNeutron199)
