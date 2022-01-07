@@ -7,7 +7,7 @@ const client = new Client({
     "GUILDS",
     "GUILD_MESSAGES"
   ]
-})
+}) // Making the client and specifying the intents
 
 client.once('ready', (client) =>{
   console.log(`Logged in as ${client.user.tag}`);
