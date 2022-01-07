@@ -16,7 +16,7 @@ client.on('messageCreate', (msg) => {
   const args = msg.content.slice(prefix.length).trim().split(/ + /g)
 
   //Getting the first word from the Arguments which is the Command itself
-  const commandName = args.shift.toLowerCase()
+  const commandName = args.shift().toLowerCase()
   if (commandName === 'ping') {
     msg.channel.send('Pong')
   } else if (commandName === 'whois') {
