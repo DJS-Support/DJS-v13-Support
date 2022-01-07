@@ -1,8 +1,13 @@
-const { Client, Intents } = require('discord.js');
+const { Client } = require('discord.js');
 
 const { token, prefix } = require('./config.json');
 
-const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+const client = new Client({
+  intents: [
+    "GUILDS",
+    "GUILD_MESSAGES"
+  ]
+})
 
 client.once('ready', (client) =>{
   console.log(`Logged in as ${client.user.tag}`);
