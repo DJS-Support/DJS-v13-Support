@@ -1,10 +1,6 @@
 const Discord = require('discord.js')
 //Importing the "Discord.js" npm
 const config = require("./config.json") //Loading the Bot config
-/**
- * Using the 'Client' class imported above to create a new Client called 'bot'
- * @param {Client} bot
- */
 const client = new Discord.Client({
   intents: [
     "GUILDS",
@@ -46,7 +42,7 @@ client.on('messageCreate', (msg) => {
     })
   }
 })
-client.once('ready', () => {
-  console.log(`Ready!\nLogged in as ${bot.user.tag}`)
+client.once('ready', (client) => {
+  console.log(`Ready!\nLogged in as ${client.user.tag}`)
 })
 client.login(config.token)
