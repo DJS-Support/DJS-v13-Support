@@ -1,5 +1,5 @@
 ## Valid Intents-
-
+```javascript
 - GUILDS
 - GUILD_MEMBERS
 - GUILD_BANS
@@ -16,16 +16,24 @@
 - DIRECT_MESSAGE_REACTIONS
 - DIRECT_MESSAGE_TYPING
 - GUILD_SCHEDULED_EVENTS
+```
 
 ## Some more issues related to Intents
 
-1- If you get an Error like 'Invalid Bitfield or Flag provided', compare your intents to the List above.
-There can be a small Typo causing the Issue
-2- If you get an Error like 'Priviliged Intents are not enabled for the Client',
+1- If you get an Error like **:**
+```
+Invalid Bitfield or Flag provided
+``` 
+Compare your intents to the list above, if your intents aren't on that list they're invalid. Or if they're on that list check you typed it correctly **CAP SENSITIVE**
+
+2- Or, If you get an Error like **:**
+```
+Priviliged Intents are not enabled for the Client
+```
 
 - Go to the [Discord Developer Portal](https://discord.com/developers/applications)
 - Click on YOUR Bot Application
 - Go to the "Bot" Section
-- There should be a Section with the Heading "Priviliged Intents", there should be 3 Buttons in that Section.
-  Toggle all the things there, that should fix the Issue
+- There should be a section with the Heading **Priviliged Intents**, there should be three buttons in that section.
+  Toggle all three there, that should fix the issue.
   [For More Information on Intents click Here](https://discord.com/developers/docs/topics/gateway)
