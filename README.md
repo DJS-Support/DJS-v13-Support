@@ -8,13 +8,24 @@
 
 ## Table of contents
 
-- [DJS v13 Support](https://github.com/DJS-CodeDen/DJS-v13-Support/blob/main/DJS-V13/readme.md)
+- [DJS v13 Support](DJS-V13/readme.md) 
   - [Node Help]()
 - [Helpful Information]()
 - [Contributors]()
 
----
 
-### Contributers
 
-- [Scope](https://github.com/ScopeOpen)
+## Helpful Links
+
+- [x] [DJS Installation & Info](https://discordjs.guide/#before-you-begin) 
+- [x] [DJS Documentation & Help](https://discord.js.org/#/docs/main/stable/general/welcome) 
+
+- [x] [Devdocs Javascript Docs](https://devdocs.io/javascript/)
+- [x] [Mozilla Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+***
+
+### Contributors
+
+ -  [ ]  [Scope](https://github.com/ScopeOpen)
+ -  [ ] [TheDeveloperGuy](https://github.com/MrNeutron199)
