@@ -1,17 +1,17 @@
-const { Client } = require('discord.js')
-//Importing the 'Client' class from the Library
+const Discord = require('discord.js')
+//Importing the "Discord.js" npm
 const config = require("./config.json") //Loading the Bot config
 /**
  * Using the 'Client' class imported above to create a new Client called 'bot'
  * @param {Client} bot
  */
-const bot = new Client({
+const client = new Discord.Client({
   intents: [
     "GUILDS",
     "GUILD_MESSAGES"
   ]
 })
-bot.on('messageCreate', (msg) => {
+client.on('messageCreate', (msg) => {
   const prefix = config.prefix
   /**
  * Making the Command an Array by using basic JavaScript functions and basic Regex
@@ -29,7 +29,7 @@ bot.on('messageCreate', (msg) => {
       msg.reply(`Tag: ${msg.author.tag}\nID: ${msg.author.id}`) //Reply with the User's info itself
       return; //So that the command does not get executed any more
     }
-    bot.users.fetch(args[0]).then(user => {
+    client.users.fetch(args[0]).then(user => {
       /**
        * We used fetch here because Users are not always cached, hence can result in an Error if the User is not found in the cache
        * Fetch returns a JavaScript promise, so we used '.then' to get the User
@@ -46,7 +46,7 @@ bot.on('messageCreate', (msg) => {
     })
   }
 })
-bot.on('ready', () => {
+client.on('ready', () => {
   console.log(`Ready!\nLogged in as ${bot.user.tag}`)
 })
-bot.login(config.token)
+client.login(config.token)
