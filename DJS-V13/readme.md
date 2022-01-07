@@ -6,7 +6,7 @@
 
 - [DJS V13 Code Examples](code-samples) 
 - [Errors & Support]()
-- [Node Install](Node_install.md)
+- [Node Install](Node_Install.md)
 - [Helpful Information]()
 - [Contributors]()
 
