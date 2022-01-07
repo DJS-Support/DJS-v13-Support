@@ -4,9 +4,9 @@
 
 ## Table of contents
 
-- [DJS V13 Code Examples](DJS-V13/code-samples) 
+- [DJS V13 Code Examples](code-samples) 
 - [Errors & Support]()
-- [Node Install](DJS-V13/Node_install.md)
+- [Node Install](Node_install.md)
 - [Helpful Information]()
 - [Contributors]()
 
