@@ -9,12 +9,9 @@
 
 ## Table of contents
 
-- [DJS V13 Code Examples](DJS-V13/readme.md) 
-  - [Node Help]()
-- [Helpful Information]()
+- [Help & Info](DJS-V13/readme.md)
+- [Helpful Links]()
 - [Contributors]()
-
-
 
 ## Helpful Links
 
