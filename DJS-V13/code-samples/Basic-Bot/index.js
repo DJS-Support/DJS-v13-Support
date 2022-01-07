@@ -46,7 +46,7 @@ client.on('messageCreate', (msg) => {
     })
   }
 })
-client.on('ready', () => {
+client.once('ready', () => {
   console.log(`Ready!\nLogged in as ${bot.user.tag}`)
 })
 client.login(config.token)
