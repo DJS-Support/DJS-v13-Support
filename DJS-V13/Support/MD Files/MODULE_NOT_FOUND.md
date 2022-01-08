@@ -4,7 +4,7 @@
 
 ## MODULE_NOT_FOUND:PACKAGE
 - [x] **If you've unsuccessfully downloaded/installed a package using npm [CLICK HERE!](#Error_Installing_Module_With_NPM)**
-- [x] **If you've successfully downloaded/installed a package but haven't successfully imported it into your code [CLICK HERE!](#Error_Requiring)**
+- [x] **If you've successfully downloaded/installed a package but haven't successfully imported it into your code [CLICK HERE!](#ErrorRequiring)**
 
 ### Error_Installing_Module_With_NPM
 ```javascript
