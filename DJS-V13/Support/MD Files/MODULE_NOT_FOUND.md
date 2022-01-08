@@ -4,7 +4,7 @@
 
 ## MODULE_NOT_FOUND:PACKAGE
 - [x] **If you've unsuccessfully downloaded/installed a package using npm [CLICK HERE!](#Error_Installing_Module_With_NPM)**
-- [x] **If you've successfully downloaded/installed a package but haven't successfully imported it into your code [CLICK HERE!](#ErrorRequiring)**
+- [x] **If you've successfully downloaded/installed a package but haven't successfully imported it into your code [CLICK HERE!](#Error-Requiring)**
 
 ### Error_Installing_Module_With_NPM
 ```javascript
@@ -26,7 +26,7 @@
 
 > Check your npm version run "npm -v" in your terminal. If it isn't 8.3.0 or higher run "npm install -g npm@latest" in your terminal
 
-**If you've done all of this go to [Here](#ErrorRequiring)**
+**If you've done all of this go to [Here](#Error-Requiring)**
 
 
 ### Error Requiring
