@@ -69,7 +69,7 @@ Open your terminal and run `node index.js`
 > To close/end your bots proccess use `Ctrl + c`, this is in all terminals to end a proccess
 
 ## Result Code
-This code is a basic way to create your first Discord bot, more advanced bots and code structures are in [Here!](DJS-V13/code-samples)
+This code is a basic way to create your first Discord bot, more advanced bots and code structures are in [Here!](https://github.com/DJS-Support/DJS-v13-Support/tree/main/DJS-V13/code-samples)
 
 
 
