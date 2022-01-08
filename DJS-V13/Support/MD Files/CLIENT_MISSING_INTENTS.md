@@ -4,16 +4,16 @@ To answer the error that says `[CLIENT_MISSING_INTENTS]` you need to add intents
 Intents also give your bot the ability to do stuff like read guild messages or dm messages, This is new in the version DJS v13.
 
 ```javascript
-const Discord = require ("discord.js");
-const { Intents } = Discord;
+const Discord = require("discord.js"); // Importing/Requiring the discord.js npm
+const { Intents } = Discord; // Making it so you can call 'Intents" instead of "Discord.Intents"
 
-const intents = new Intents ();
+const intents = new Intents (); // Making the ability to get every single intent
 
 for(const intent of Object.keys (Intents.FLAGS)){
 intents.add(intent);
 }
 
-const client = new Discord.Client ({
+const client = new Discord.Client ({ // Starting up a client with the valid intents
   intents: intents
 });
 ```
@@ -21,8 +21,8 @@ const client = new Discord.Client ({
 
 > Something like this
 ```javascript
-const { Client } = require('discord.js');
-const client = new Client({
+const { Client } = require('discord.js'); // Making it so you can call 'Client' insteda of 'Discord.Client'
+const client = new Client({ // Creating a client with the intents you choose
   intents: [
     "GUILDS",
     "GUILD_MESSAGES"
