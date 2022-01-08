@@ -10,8 +10,7 @@ const client = new Client({
 }) // Making the client and specifying the intents
 
 /**
- * Using 'fs' node Module to read the Events folder
- * Then filtering out the .js Files
+ * Reading the Handlers Folder 
  */
 
 client.commands = new Collection();
