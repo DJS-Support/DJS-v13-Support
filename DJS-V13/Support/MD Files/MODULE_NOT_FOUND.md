@@ -1,8 +1,8 @@
 # Sections
 - [x] [If requiring a file CLICK!]()
-- [x] [If requiring a package CLICK!](MODULE_NOT_FOUND:%20NPM/CODE%20ERR)
+- [x] [If requiring a package CLICK!](MODULE_NOT_FOUND:%20NPM,CODE%20ERR)
 
-## MODULE_NOT_FOUND: NPM/CODE ERR
+## MODULE_NOT_FOUND: NPM,CODE ERR
 > **If you've unsuccessfully downloaded/installed a package using npm [CLICK HERE!](#Error_Installing_Module_With_NPM)**
 
 > **If you've successfully downloaded/installed a package but haven't successfully imported it into your code [CLICK HERE!](#Error_Requiring)**
