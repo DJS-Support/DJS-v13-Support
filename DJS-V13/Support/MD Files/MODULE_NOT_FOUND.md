@@ -1,8 +1,8 @@
 # Sections
-- [x] [If requiring a file CLICK!](#MODULE_NOT_FOUND:FILE)
-- [x] [If requiring a package CLICK!](#MODULE_NOT_FOUND:PACKAGE)
+- [x] [If requiring a file CLICK!](#MODULE_NOT_FOUND..FILE)
+- [x] [If requiring a package CLICK!](#MODULE_NOT_FOUND..PACKAGE)
 
-## MODULE_NOT_FOUND:PACKAGE
+## MODULE_NOT_FOUND..PACKAGE
 > **If you've unsuccessfully downloaded/installed a package using npm [CLICK HERE!](#Error_Installing_Module_With_NPM)**
 
 > **If you've successfully downloaded/installed a package but haven't successfully imported it into your code [CLICK HERE!](#Error_Requiring)**
@@ -38,7 +38,7 @@ const <name> = require('<module_name>')
 ```
 Make sure to remove the **Angle Brackets < >** when replacing with your name
 
-## MODULE_NOT_FOUND:FILE
+## MODULE_NOT_FOUND..FILE
 
 
 
