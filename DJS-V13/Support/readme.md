@@ -8,7 +8,7 @@
 
 - **Javascript Errors**
   - [ReferenceError: __ is not defined]()
-  - [Error: Cannot find module '___']()
+  - [Error: Cannot find module '___'](MD%20Files/MODULE_NOT_FOUND.md)
 
 - **Node Errors/Npm Errors**
   - ['Node' is not recognized as an internal or external command]()
