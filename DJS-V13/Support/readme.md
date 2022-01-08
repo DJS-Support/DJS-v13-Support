@@ -1,5 +1,7 @@
 ## Table Of Contents
 
+- **Creating your first bot DJS**
+  - [CREATING_YOUR_FIRST_BOT](MD%20Files/CREATING_YOUR_FIRST_BOT.md)
 
 - **Discord-JS Errors**
   - [CLIENT_MISSING_INTENTS](MD%20Files/CLIENT_MISSING_INTENTS.md)
