@@ -26,10 +26,10 @@
 
 > Check your npm version run "npm -v" in your terminal. If it isn't 8.3.0 or higher run "npm install -g npm@latest" in your terminal
 
-**If you've done all of this go to [Here](Error_Requiring)**
+**If you've done all of this go to [Here](#ErrorRequiring)**
 
 
-### Error_Requiring
+### Error Requiring
 **Follow below if you haven't successfully imported the module in your code**
 *When requiring a module or anything in javascript this should be the format:*
 ```javascript
