@@ -14,6 +14,7 @@ const client = new Client({
  */
 
 client.commands = new Collection();
+client.events = new Collection();
 
 ['command_handler', 'event_handler'].forEach(handler =>{
   require(`./handlers/${handler}`)(client, Discord)
