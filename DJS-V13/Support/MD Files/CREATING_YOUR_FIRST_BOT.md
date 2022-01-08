@@ -53,7 +53,7 @@ const client = new Discord.Client({
 
 //When your bot turns on, it will run this code 
 client.once('ready', (client) => {
-  console.log("Ready!")
+  console.log("Ready! Logged in as ${client.user.tag}".)
 })
 
 //Login to Discord with your client's token
