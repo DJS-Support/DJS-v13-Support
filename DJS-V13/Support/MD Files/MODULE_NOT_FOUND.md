@@ -5,7 +5,7 @@
 ### MODULE_NOT_FOUND: MODULE/NPM
 > **If you've unsuccessfully downloaded/installed a module using npm [CLICK HERE!]()**
 
-> **If you've successfully downloaded/installed a module but haven't successfully imported it into your code [CLICK HERE!](#Unsuccessfully Required)**
+> **If you've successfully downloaded/installed a module but haven't successfully imported it into your code [CLICK HERE!](#Error_Requiring)**
 
 Follow below if you haven't successfully installed the module 
 ```
@@ -30,7 +30,7 @@ Follow below if you haven't successfully installed the module
 **If you've said yes to all of those go to [Here]()**
 
 
-### Unsuccessfully Required
+### Error_Requiring
 **Follow below if you haven't successfully imported the module in your code**
 
 
