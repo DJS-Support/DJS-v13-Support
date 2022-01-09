@@ -43,6 +43,6 @@ client.on('messageCreate', (msg) => {
   }
 })
 client.once('ready', (client) => {
-  console.log(`Ready!\nLogged in as ${client.user.tag}`)
+  console.log(`Ready! Logged in as ${client.user.tag}`)
 })
 client.login(config.token)

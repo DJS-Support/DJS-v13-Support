@@ -9,7 +9,7 @@ module.exports = (client, Discord) => {
       client.commands.set(command.name, command);
     } else {
       const n = file.split(".")[0]
-      console.log(`A Command in ${n} was not loaded because something inside it is missing.`)
+      console.log(`${n} was not loaded because the command Name is missing!`)
       continue;
     }
   }
